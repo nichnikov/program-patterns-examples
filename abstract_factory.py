@@ -58,6 +58,7 @@ if __name__ == "__main__":
     w1 = create_dialog(LinuxFactory)
     w1.show()
     
+    # или на MacOs
     w2 = create_dialog(MacOsFactory)
     w2.show()
 
