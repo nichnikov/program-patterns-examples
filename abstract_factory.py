@@ -2,6 +2,11 @@
 https://uproger.com/pattern-abstraktnaya-fabrika-realizacziya-na-python/?ysclid=lxn0w59sdn601010634    
 """
 
+"""
+Абстрактная фабрика — это порождающий паттерн проектирования, который позволяет создавать семейства связанных объектов, 
+не привязываясь к конкретным классам создаваемых объектов.
+"""
+
 class WindowFactory:
     @classmethod
     def create_window(cls, name):
